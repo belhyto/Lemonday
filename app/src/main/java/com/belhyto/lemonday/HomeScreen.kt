@@ -51,7 +51,7 @@ fun LemonWelcome(navController: NavHostController)
                           .align(Alignment.BottomEnd)
                           .width(width = 200.dp)
                           .height(85.dp)
-                          .clickable { navController.navigate(Screen.Menu.route) },
+                          .clickable {navController.navigate(Screen.Menu.route) },
                     elevation = ButtonDefaults.elevation(10.dp),
                      colors = ButtonDefaults.buttonColors(
                          backgroundColor = MaterialTheme.colors.secondary,

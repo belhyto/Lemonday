@@ -23,7 +23,7 @@ import androidx.navigation.compose.rememberNavController
 import com.belhyto.lemonday.navigation.Screen
 import kotlinx.coroutines.delay
 
-
+/*
 @Composable
 fun LemonSplash(modifier: Modifier=Modifier,navController: NavHostController)
 {
@@ -49,7 +49,9 @@ fun splashPreview()
 {
     LemonSplash(  navController = rememberNavController())
 }
-/*
+
+ */
+
 @Composable
 fun LemonSplash(navController: NavHostController) {
     var startAnimation by remember {
@@ -97,4 +99,3 @@ fun splashPreview()
     Splash(alpha= 1f)
 }
 
- */
